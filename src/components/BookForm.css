@@ -1,0 +1,26 @@
+/* src/components/BookForm.css */
+.book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-form label {
+  margin-bottom: 10px;
+}
+
+.book-form input,
+.book-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.book-form textarea {
+  resize: vertical;
+}
+
+.book-form button {
+  align-self: flex-start;
+}
